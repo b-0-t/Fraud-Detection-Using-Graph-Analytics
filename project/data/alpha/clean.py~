@@ -1,0 +1,5 @@
+import unicodecsv 
+
+f = unicodecsv.reader(open("alpha_network.csv","r"))
+for l in f:
+    print l[0], l[1], l[2], l[3]
